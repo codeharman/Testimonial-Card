@@ -8,7 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   background: linear-gradient(135deg, #F9FAFB, #d2d6db);
-  padding: 0;
+  padding: 1rem;
   display: flex;
   justify-content: center;   /* horizontal center */
   align-items: flex-start;
@@ -52,7 +52,7 @@ img {
 }
 
 .username {
-  font-size: 0.875rem;
+  font-size: 0.95rem;
 }
 
 
