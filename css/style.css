@@ -1,0 +1,58 @@
+/* Put any custom CSS styles here.  */
+/* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+body {
+  margin: 0;
+  font-family: "Noto Sans", system-ui;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  background: linear-gradient(135deg, #F9FAFB, #d2d6db);
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #525252;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: white;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 375px;
+  border-radius: 0.5rem;
+  margin-top: 12.5rem;
+  box-shadow: 0px 1px 2px #a6a6a6;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.user {
+  line-height: .4rem;
+}
+
+.name {
+  font-weight: 500;
+  color: #171717;
+}
+
+.username {
+  font-size: 0.875rem;
+}
+
+
+
